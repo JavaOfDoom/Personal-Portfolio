@@ -1,0 +1,181 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #339999;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #a6488d;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.intro {
+  top: 0;
+  background: #339999;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+.intro h1 {
+  margin: 10px;
+  font-size: 2.7em;
+}
+
+.work {
+  padding-top: 60px;
+}
+
+.project-tile {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  overflow: hidden;
+  height: 220px;
+  width: 280px;
+  border: 2px solid black;
+  margin: 40px 100px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid black;
+}
+
+.project-title {
+  font-weight: 600;
+}
+
+.show-all {
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  height: 30px;
+  margin: 20px auto 90px;
+  background: #339999;
+  color: #a6488d;
+  font-weight: 600;
+  font-size: 1.2em;
+  border: 2px solid #124c4c;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 6px 0 6px;
+}
+
+.show-all:hover {
+  background: #4ce5e5;
+}
+
+.fab, .far, .fas {
+  padding: 12px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 20px 5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+  background: #000;
+  color: grey;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-free-code-camp {
+  background: #006400;
+  color: white;
+  padding-left: 12px;
+  width: 60px;
+  height: 60px;
+  border-right: 10px solid #006400;
+  border-bottom: 4px solid #006400;
+}
+
+.fa-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007BB5;
+  color: white;
+}
+
+.fa-envelope {
+  background: #006600;
+  color: white;
+}
+
+.fa-phone {
+  background: #660099;
+  color: white;
+}
+
+.contact {
+  margin-top: 20px;
+  padding: 20px;
+  background: #32B08C;
+}
+.contact h1 {
+  margin: 10px;
+}
+.contact p {
+  margin: 10px;
+}
+
+footer {
+  padding: 20px;
+  background: #2FA663;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 20px;
+  }
+
+  .project-tile {
+    margin: 40px 0;
+  }
+}
